@@ -1,0 +1,38 @@
+
+h1 {
+	color: rgba(102,0,0,1);
+	font-style: italic;
+	font-size: 40px;
+}
+h2{
+text-decoration;
+}
+
+	p{
+		color: #7F3300;	
+	}
+
+body {
+	background-image: url("../img/bgfademauve.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: black;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+#Elcover {
+	height: 300px;
+	width: 250px;
+	float: right;
+}
+
+#mini {
+	height: 175px;
+	width: 200px;
+	float: right;
+}
+#theboys {
+	height: 275px;
+	width: 250px;
+	float: right;
+}

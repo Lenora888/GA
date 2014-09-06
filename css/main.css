@@ -5,7 +5,7 @@ h1 {
 	font-size: 40px;
 }
 h2{
-text-decoration;
+text-decoration; //this isn't valid css.  should be text-decoration: underline; (if we want to underline h2 text)
 }
 
 	p{

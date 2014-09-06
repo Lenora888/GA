@@ -5,14 +5,26 @@
 </head>
 
 <h1><u>Everything you need to know about me..... Lenora</u></h1>
+<!--keep in mind that the <u> tag creates text that looks a lot like an <a> tag, which might make users think this is a link -->
       <div>
         <h2>Welcome to my homepage</h2>
         <img id="Elcover" src="img/ElCoverPhoto.jpg"/>
     </div>
       <body>
         <h2><i><b><u>Who Am I really?</i><b></u></h2>
+        <!--instead of <i> and <b> tags, consider creating a class which has font-style: italic and font-weight: bold
+        i.e. 
+        <h2 class="title">Who am I really?</h2>
+        and in your css...
+        .title {
+        font-weight: bold; 
+        font-style: italic; 
+        text-decoration: underline; 
+        }
+        -->
               <p id="L"/>I am someone who has been undergoing alot of change this year, and I am discovering who I really am with everything that is happening!  I am someone who is digging deep to find my next big adventure in life!  </p>
-
+<!--lets make our id names a bit more descriptive.  A single letter might not make sense to you or other developers. So
+maybe instead of id="L", use id="firstParagraph"-->
               <p id="special1"> This year I bought a house, lost a job, bought a new mini cooper countryman,starting using a MAC, tried river rafting and kayaking, and started to really look at some of the things I never really looked at carefully, like finances, and I began to clean house so to speak! </p>
 
               <p>All the change I had been going through really caused me to stop and look at how I took things for granted and how wasteful I had been over the years. The stress I had undergone at work, caused me to snap at my family at times, and I realized this is not who I wanted to be.  I began to use some of my new free time at home to repair my relationships and to not be so wasteful. I finally started to feel like some of the bricks I had been carrying around for years were starting to fall off, and it's starting to feel good!</p>
@@ -34,6 +46,7 @@
           <li>And just being 127.0.0.1</li>
         </ul>    
       </div>
+      <!--good formatting above :) -->
 
 <br />
 
@@ -75,6 +88,7 @@
 
         </body>
 
-        <br />
+        <br /><!--instead of a </br>, set a margin on the body -->
   <h3><b>Hope you visit again - It's been real!</b></h3>
+  <!--all of our html should go inside the <body> tag, so lets move the line above to line 88 -->
   </html>

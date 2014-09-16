@@ -1,0 +1,71 @@
+
+h1{
+	font-size: 100px;
+	margin-left: 400px;
+}
+body{
+	background-image: url("../img/sky.jpg");
+	background-repeat: no-repeat;
+	background-size: 200% 200%;
+}
+.lightbox{
+	background-color: #F7BA10;
+	border-radius: 35%;
+	width: 185px;
+	height: 400px;
+	border: solid 4px black;
+	margin-left: 25%;
+	margin-top: 65px;
+}
+.lights{
+	border-radius:50%;
+	border: solid 4px black;
+	width: 100px;
+	height: 100px;
+	margin-left: 21%;
+	margin-top: 10%;
+	transition: width 3s ease 0s
+}
+.lights:hover{
+	width: 125px;
+	opacity: .5;
+}
+#redlight{
+	background-color: red;
+}
+#yellowlight{
+	background-color: yellow;
+}
+#greenlight{
+	background-color: green;
+}
+.container{
+	height: 350px;
+	width: 150px;
+	background: blue;
+	border-radius: 10px;
+	border: solid 2px black;
+	text-align: right;
+	padding-right: 40px;
+	padding-left:10px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	margin-right: 12px;
+	margin-left: 800px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	float: left;
+}
+button{
+	background-color: black;
+	border-radius: 10px;
+	color: yellow;
+	font-size:20px;
+	padding: 25%;
+	transition: width 2s ease 1s
+}
+button:hover{
+	width: 175px;
+	opacity: .5;
+}
+

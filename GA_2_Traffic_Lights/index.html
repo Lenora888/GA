@@ -3,17 +3,21 @@
 <head>
 	<title>index.html></title>
 	<link rel="stylesheet" style type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/application.js"></script>
 </head>
 <body>
 	<h1>Traffic Light</h1>
 		<div class="container">
-			<button>STOP</button>
-			<button>CAUTION</button>
-			<button>GO</button>	
+			<button onClick="flipASwitch('redlight','red')" id="firstbutton">STOP</button>
+			<button onClick="flipASwitch('yellowlight','yellow')" id="secondbutton">CAUTION</button>
+			<button onClick="flipASwitch('greenlight','green')" id="thirdbutton">GO</button>	
 		</div>
+
 		<div class="lightbox">
 			<div class="lights" id="redlight"></div> 
-			<div class="lights" id="yellowlight"></div>
+			<div class="lights"  id="yellowlight"></div>
 			<div class="lights"	id="greenlight"></div>	 
+	    </div>
 </body>
 </html>
+

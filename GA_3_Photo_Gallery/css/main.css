@@ -1,0 +1,32 @@
+h1{
+	color: red;
+	margin-left: 575px;
+	margin-top: 2px;
+}
+
+body{
+	background-color: black;
+	display: block;
+	margin-top: 2px;
+}
+
+#bigImg{
+	 height: 500px;
+	 width: 1000px;
+	 border: 6px solid red;
+	 margin-left: 140px;
+	 margin-top: 5px;
+
+}
+.flipSwitch {
+	margin-top: 20px;
+	}
+
+.smallPics2 {
+	height: 60px;
+	width: 100px;
+	margin-left: 45px;
+	position: relative;
+	border: 2px solid red;
+	float: left;
+}

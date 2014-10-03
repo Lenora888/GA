@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script type="text/javascript"  src="js/application.js"></script>
+	</head>
+	<body>	
+	<div id="mainContainer">
+		<div id="thumbs">
+			<div class="thumb" onclick="changePicture(0)"><img src="img/car.jpg" /></div>
+			<div class="thumb" onclick="changePicture(1)"><img src="img/hand.jpg" /></div>
+			<div class="thumb" onclick="changePicture(2)"><img src="img/heart.jpg" /></div>
+			<div class="thumb" onclick="changePicture(3)"><img src="img/tiger.jpg" /></div>	
+		</div>
+		<div id="mainImageContainer">
+			<img id="mainImage" src="img/heart.jpg" />  
+		</div>
+		<div id="controls">
+			<span id="prevButton" onclick="prevImage()" class="btn"><</span>
+			<span id="nextButton" onclick ="nextImage()" class="btn">></span>
+		</div>
+	</div>
+		
+	</body>
+
+	</html>

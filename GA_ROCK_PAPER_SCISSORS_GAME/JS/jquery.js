@@ -1,0 +1,4 @@
+$.each(stuff, function (){
+	
+
+});

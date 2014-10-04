@@ -51,7 +51,7 @@ body {
 	background-color: gray;
 }
 
-#mainImage img{
+#mainImageContainer img { /* Missing word 'Continer' here. That's why your hand image isn't larger :) */ 
 	width: 100%;
 }
 

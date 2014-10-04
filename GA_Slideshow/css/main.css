@@ -1,7 +1,44 @@
-body{
+/*Consider organizing your css from least specific rule to most specific (tags, classes, then ids);*/
+
+body {
 	font-family: Helevitica; Georgia, sans-serif;
 }
-#mainContainer{
+
+.thumb {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border: 2px solid white;
+	background-color: black;
+	cursor: pointer;
+	overflow: hidden;
+	border: 2px solid white;
+
+}
+
+.thumb img {
+	height: 80px;
+}
+
+.thumb:hover {
+	opacity: .7;
+
+}
+
+.btn {
+
+	color: white;
+	background-color:black;
+	padding: 20px;
+	border: 1px solid white;
+	cursor: pointer;
+}
+
+.btn:hover {
+ opacity: .7;
+}
+
+#mainContainer {
 	position: relative;
 	height: 700px;
 	width: 100%;
@@ -18,38 +55,7 @@ body{
 	width: 100%;
 }
 
-.thumb {
-	display: inline-block;
-	width: 80px;
-	height: 80px;
-	border: 2px solid white;
-	background-color: black;
-	cursor: pointer;
-	overflow: hidden;
-	border: 2px solid white;
-
-}
-
-.thumb img{
-	height: 80px;
-}
-
-.thumb:hover {
-	opacity: .7;
-
-}
-#controls{
+#controls {
 	position: absolute;
 	bottom: 0px;
 }
-.btn {
-
-	color: white;
-	background-color:black;
-	padding: 20px;
-	border: 1px solid white;
-	cursor: pointer;
-}
-
-.btn: hover;
- opacity: .7;

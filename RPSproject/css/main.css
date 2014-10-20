@@ -1,0 +1,100 @@
+h1{
+	font-size: 45px;
+	color: #F5DEB3;
+	text-align: center;
+	text-shadow: 2px 2px red;
+	margin-top: 0px;
+}
+#header{
+	border-bottom:1px solid #F5DEB3;
+}
+h3{
+	font-size: 30px;
+	color: #F5DEB3;
+	text-shadow: 2px 2px red;
+}
+#outcome{
+	text-shadow: 2px 2px red;
+	text-decoration: underline;
+}
+h4{
+	font-size: 24px;
+	color: #F5DEB3;
+	text-shadow: 2px 2px red;
+}
+#ruleheader{
+	text-shadow: 2px 2px #000000;
+	text-decoration: underline;
+}
+
+body{
+	background-image: url("../img/bluestripes.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: serif;
+	font-size: 22px;
+	color: #F5DEB3;
+}
+#start{
+	color: #F5DEB3;
+	background-color: #4F94CD;
+	text-shadow: 1px 1px red;
+}
+
+.lghImge{
+	border-radius: 45%;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+.img-circle{
+	border-radius:45%;
+	border: 4px solid black;
+	height: 100px;
+	width: 100px;
+}
+.score{
+	font-size:18px;
+	text-shadow: 1px 1px red;
+}
+
+.lights{
+	border-radius:50%;
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+	margin-left: 21%;
+	margin-top: 20%;
+	transition: width 2s ease 0s;
+	background-color: black;
+}
+.lights:hover{
+	width: 125px;
+	opacity: .5;
+}
+
+.rules{
+	margin-right: 35px;
+	text-shadow: 1px 1px red;
+}
+
+#rules2{
+	font-size: 18px;
+	text-shadow: 1px 1px red;
+}
+#redlight{
+	background-color: #CC0000;
+}
+#yellowlight{
+	background-color: #FFD700;
+}
+#greenlight{
+	background-color: #006400;
+}
+
+.who{
+	text-shadow: 2px 2px red;
+	text-decoration: underline;
+	font-size: 30px;
+	color: #F5DEB3;
+}

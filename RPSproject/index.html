@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>LENORA'S ROCK PAPER SCISSOR GAME</title>
+       <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+
+	<body>
+	  <div id="header"><h1>ROCK PAPER SCISSOR GAME</h1></div>
+
+        <div class="row">
+          <!-- Column on Left -->
+          <div class="col-md-2">
+            
+            <div class="row">
+              <div class="col-md-12">
+                <div class="lights" id="redlight"></div> 
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-12">
+                <div class="lights" id="yellowlight"></div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-12">
+                <div class="lights" id="greenlight"></div> 
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Column on in Middle -->
+          <div class="col-md-6">
+            
+            <div class="row">
+              <div class="col-md-2 col-md-offset-3">
+                <div class="who">YOU</div>
+              </div>
+              <div class="col-md-2 col-md-offset-2">
+                <div class="who">COMPUTER</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2 col-md-offset-3">
+                <img id="RPC_UR" onclick="userSelection('RPC_UR')" src="img/RPC_UR.jpeg" alt="rock" class="img-circle">
+              </div>
+              <div class="col-md-2 col-md-offset-2">
+                <img id="RPC_CR" src="img/RPC_CR.jpeg" alt="rock" class="img-circle">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2 col-md-offset-3">
+                <img id="RPC_UP" onclick="userSelection('RPC_UP')" src="img/RPC_UP.jpeg" alt="paper" class="img-circle ">
+              </div>
+              <div class="col-md-2 col-md-offset-2">
+                <img id="RPC_CP" src="img/RPC_CP.jpeg" alt="paper" class="img-circle">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2 col-md-offset-3">
+                <img id="RPC_US" onclick="userSelection('RPC_US')" src="img/RPC_US.jpeg" alt="scissors" class="img-circle">
+              </div>
+              <div class="col-md-2 col-md-offset-2">
+                <img id="RPC_CS" src="img/RPC_CS.jpeg" alt="scissors" class="img-circle">
+              </div>
+            </div>
+            <div class="row">
+              <button id="start" type="button" onclick="StartGame()" class="btn btn-primary btn-lg btn-block">PRESS START TO ACTIVATE THE GAME</button>
+            </div>
+
+
+
+          </div>
+
+
+          <!-- Column on right -->
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-12">  
+                <div>
+                  <div id="outcome">
+                    <h3>OUTCOME</h3>
+                    <p></p>
+                  </div>
+                </div>
+
+                <div>
+                  <br />
+                  <br />
+                    <div id="ruleheader"><h4>RULES OF THE GAME......</h4></div>
+                      </ol>
+                        <li class="rules">Rock beats scissor, but loses to paper</li>
+                        <li class="rules">Paper beats rock, but loses to scissors</li>
+                        <li class="rules">Scissor beats paper, but loses to rock</li>
+                      </ol>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+        
+        <div class="row">
+          <!-- footer -->
+          <div class="col-md-12">
+            <hr />
+            <div id="rules2">INSTRUCTIONS:
+              <ul>
+               <li>The game will not begin until the START BUTTON IS PRESSED and the GREEN LIGHT TURNS ON.
+               <li>The players begin by counting down Three, two, one, go!  The players then choose the image of the hand gesture for their selection.</li>
+               <br />
+               <li>To select Rock, choose the image of the hand with the closed fist.</li>
+               <li>To select Scissors, choose the image of the flat hand with the pointer finger and the middle finger extended and separated.</li>
+               <li>To select Paper, choose the image of the flat open hand.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  </body>
+  <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/application.js"></script>
+
+</html>

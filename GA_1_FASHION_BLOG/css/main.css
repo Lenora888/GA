@@ -1,7 +1,7 @@
 /*One good way to organize your CSS is to seperate by types. Start with tags, then list classes, then ids, and then a mixture of tags, classes, and ids (like ".container #lightbox .light ")*/
 
 body {
-	margin-left:175px;
+	margin-left: 175;
 	margin-right: 39%;
 	border-left-style: solid;
 	border-left-color:#E0E0E0;

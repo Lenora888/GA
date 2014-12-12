@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<script type="text/javascript"  src="js/application.js"></script>
-	</head>
-	<body>	
+<head>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript"  src="js/application.js"></script>
+</head>
+<body>	
 	<div id="mainContainer">
 		<div id="thumbs">
 			<div class="thumb" onclick="changePicture(0)"><img src="img/car.jpg" /></div>
@@ -13,14 +13,15 @@
 			<div class="thumb" onclick="changePicture(3)"><img src="img/tiger.jpg" /></div>	
 		</div>
 		<div id="mainImageContainer">
-			<img id="mainImage" src="img/heart.jpg" />  
+			<img id="mainImage" src="img/car.jpg" />  <!-- Should set the main image to whatever the first image in your 'images' array is.  -->
 		</div>
 		<div id="controls">
 			<span id="prevButton" onclick="prevImage()" class="btn"><</span>
 			<span id="nextButton" onclick ="nextImage()" class="btn">></span>
 		</div>
 	</div>
-		
-	</body>
+</body>
+</html>
 
-	</html>
+
+<!-- As a rule of thumb, your head and body tags should typically be against the back wall of your program. Start indenting the tags within your <body> and <head> tags. -->
